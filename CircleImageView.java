@@ -31,7 +31,7 @@ import androidx.annotation.ColorRes;
 import androidx.annotation.DrawableRes;
 import androidx.annotation.RequiresApi;
 
-@SuppressWarnings("UnusedDeclaration")
+@SuppressLint("AppCompatCustomView")
 public class CircleImageView extends ImageView {
 
     private static final ScaleType SCALE_TYPE = ScaleType.CENTER_CROP;
